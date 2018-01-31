@@ -1,6 +1,6 @@
 // async requests with the jQuery library 
 
-const key = "c3f46be33b42052c824c21899cea4ab783ffb2618961597c5a9624592c24ac96";
+const key = UNSPLASH_KEY;
 const form = $('#search-form')[0];
 const searchField = $('#search-keyword')[0];
 const responseContainer = $('#response-container')[0];
