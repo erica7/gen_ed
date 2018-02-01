@@ -1,7 +1,7 @@
 // XHR requests 
 
 (function () {
-  const key = "c3f46be33b42052c824c21899cea4ab783ffb2618961597c5a9624592c24ac96";
+  const key = UNSPLASH_KEY;
   const form = document.querySelector('#search-form');
   const searchField = document.querySelector('#search-keyword')
   let searchedForText;
