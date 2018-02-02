@@ -55,7 +55,3 @@ function requestError(err) {
 function clearSearch() {
   searchField.value = '';
 }
-
-
-
-

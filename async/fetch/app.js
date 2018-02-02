@@ -10,7 +10,6 @@ let searchedForText;
 form.addEventListener('submit', function (e) {
   e.preventDefault();
   searchedForText = searchField.value;
-  // searchedForText='hippos';
   responseContainer.innerHTML = '';
   let url = `https://api.unsplash.com/search/photos?page=1&query=${searchedForText}`;
   fetch(url, {

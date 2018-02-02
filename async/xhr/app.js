@@ -20,7 +20,6 @@
     unsplashRequest.setRequestHeader('Authorization', `Client-ID ${key}`);
     unsplashRequest.send();
 
-
     function clearSearch () {
       // let searchField = document.querySelector('#search-keyword')
       searchField.value = '';
@@ -54,6 +53,5 @@
     function handleError () { 
       console.log( 'An error occurred \uD83D\uDE1E' );
     }
-
   });
 })();
