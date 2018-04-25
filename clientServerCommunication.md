@@ -92,6 +92,17 @@ __Mixed Content__
 
 ---
 ### HTTP/1 vs HTTP/2
+
+HTTP methods:
+- GET, POST, PUT, DELETE, HEAD, OPTIONS
+
+Status codes: 
+- 1xx - Informational
+- 2xx - Success 
+- 3xx - Redirection
+- 4xx - Client Error 
+- 5xx - Server Error 
+
 HTTP/2 mitigates issues with HTTP/1:
 
 - __Head of Line Blocking__: one request blocks others from completing. 
@@ -112,9 +123,6 @@ HTTP/2 mitigates issues with HTTP/1:
 Netcat (nc) is a computer networking utility for reading from and writing to network connections using TCP or UDP (port scanning, transferring files, port listening, etc.).
 
 `man nc` 
-
-### Common HTTP methods
-GET, POST, PUT, DELETE, HEAD, OPTIONS
 
 ### Common netcat Commands
 
